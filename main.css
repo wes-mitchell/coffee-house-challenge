@@ -1,3 +1,12 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite
+}
+
 .list {
   display: flex;
   flex-flow: row wrap;
@@ -8,4 +17,44 @@
 .shop {
   width: 30%;
   border: black 2px dotted;
+  background-color: blanchedalmond;
 }
+
+.shoplinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+/* article a {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+} */
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+article a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tagline {
+  display: flex;
+}
+
+
+
+
+/* <p class="tagline">Chasing Dreams and Daily Inspiration!</p>
+<p class="address">1210 Wedgewood Ave</p>
+<p class="phone-number">615-390-5410</p>
+<a class="webaddress" href="https://nashvillejamco.com/pages/nashville-jam-cafe">Website</a>
+<a class="menuaddress" href="https://nashvillejamco.com/pages/nashville-jam-cafe/menu">Menu</a> */
