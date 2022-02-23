@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(10, 10, 10);
 }
 
 h1 {
@@ -11,50 +11,57 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  flex-wrap: wrap;
+    flex: 1 1 16%
+  
 }
 
 .shop {
   width: 30%;
-  border: black 2px dotted;
-  background-color: blanchedalmond;
+  border: 3px solid red;
+  margin: 6px;
+  background-color: aquamarine;
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 }
 
 .shoplinks {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
   justify-content: space-evenly;
+  margin-bottom: 5px;
 }
 
-/* article a {
+.address {
   display: flex;
-  flex-direction: row;
-  align-self: flex-end;
-} */
+  justify-content: center;
+  font-style: italic;
+  margin: 1px; 
+}
 
+.phone-number {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  margin: 1px; 
+}
 article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 article a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 
-.tagline {
+h2 {
   display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
 }
-
-
-
-
-/* <p class="tagline">Chasing Dreams and Daily Inspiration!</p>
-<p class="address">1210 Wedgewood Ave</p>
-<p class="phone-number">615-390-5410</p>
-<a class="webaddress" href="https://nashvillejamco.com/pages/nashville-jam-cafe">Website</a>
-<a class="menuaddress" href="https://nashvillejamco.com/pages/nashville-jam-cafe/menu">Menu</a> */
